@@ -83,7 +83,7 @@ docker run -d \
 
 #### Schritt 3: LM Studio mit Docker Container verbinden
 
-`https://lmstudio.ai/docs/app/mcp`
+[LM-Studio Doku](https://lmstudio.ai/docs/app/mcp)
 
 **Konfiguration:**
 - **Server Name:** `github`
@@ -111,13 +111,13 @@ docker ps | grep github-mcp-server
 docker exec -it github-mcp-server sh
 ```
 
-## Option 2: NPX-basiert (Alternative ohne Docker)
+## Option 2: NPX-basiert (Alternative ohne Docker). node.js nötig.
 
 Falls du den Docker-Container nicht nutzen möchtest: 
 
 #### Schritt 1: MCP Server Settings öffnen
 
-`https://lmstudio.ai/docs/app/mcp`
+[LM-Studio Doku](https://lmstudio.ai/docs/app/mcp)
 
 #### Schritt 2: GitHub MCP Server hinzufügen
 
@@ -535,3 +535,4 @@ Der GitHub MCP Server ist ein mächtiges Werkzeug, das die Interaktion mit GitHu
 ✅ Zeit bei wiederkehrenden GitHub-Aufgaben sparen
 
 **Viel Erfolg beim Einsatz des GitHub MCP Servers!** 🚀
+
